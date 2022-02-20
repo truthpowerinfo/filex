@@ -21,14 +21,12 @@ Steps to Convert file.
 ## 3- Auto File Upload 
 ![select formate](https://github.com/truthpowerinfo/filex/blob/main/Readme%20Content/2.png)
 
-## 4- Auto File Convert 
+## 4- Auto File Convert &  Ready to Download
 ![select formate](https://github.com/truthpowerinfo/filex/blob/main/Readme%20Content/3.png)
 
-## 6- Ready to Download
+## 6-Disponsing the uploaded file from server
 ![select formate](https://github.com/truthpowerinfo/filex/blob/main/Readme%20Content/4.png)
 
-## 7- Disponsing the uploaded file from server
-![select formate](https://github.com/truthpowerinfo/filex/blob/main/Readme%20Content/5.png)
 
 # We have also one to one file coverter
 
