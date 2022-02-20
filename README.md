@@ -1,7 +1,7 @@
 # filex
 Free and Secured Universal File to File converter web application.
 
-File Converter by sautinsoft. Sautinsoft is an creating reliable and reasonable software for developers. Our specialization is creating of components for conversion between various document formats.
+File Converted by sautinsoft. Sautinsoft is an creating reliable and reasonable software for developers. Our specialization is creating of components for conversion between various document formats.
 Here you will find a list of our .Net components which give your applications the ability to convert between: HTML, RTF, PDF, DOCX, XLS, PPT, Text, Images and other formats.
 
 Our company was founded in 2002 (website: www.sautin.com).
