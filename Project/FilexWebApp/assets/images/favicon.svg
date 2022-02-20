@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.467in" height="2.467in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2467 2467"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="R" horiz-adv-x="722"><path d="M78.9979 0l0 715.998 317.338 0c63.8448,0 112.335,-6.49897 145.503,-19.3286 33.1683,-12.8296 59.6693,-35.4918 79.503,-67.9867 19.8337,-32.5285 29.6663,-68.5254 29.6663,-107.856 0,-50.8132 -16.5,-93.6458 -49.3316,-128.498 -32.8316,-34.8183 -83.5101,-56.8408 -152.17,-66.3367 25.1541,-11.9877 44.1459,-24.0092 57.1438,-35.6602 27.6796,-25.3224 53.8438,-57.1775 78.3581,-95.3295l123.817 -195.003 -118.328 0 -94.656 149.005c-27.5112,43.1693 -50.3418,76.0009 -68.1887,98.8315 -17.9816,22.8306 -33.9765,38.6571 -48.153,47.8163 -14.0081,9.02448 -28.4877,15.3551 -43.1693,19.0255 -10.6745,2.1551 -28.151,3.33367 -52.6653,3.33367l-109.674 0 0 -318.012 -94.9928 0zm94.9928 400.007l203.354 0c43.3377,0 76.9775,4.47857 101.323,13.503 24.3459,8.82244 42.8326,23.1673 55.3255,43.001 12.6612,19.6653 18.9918,40.9806 18.9918,64.1479 0,33.8418 -12.1561,61.8581 -36.6367,83.6785 -24.5143,21.8204 -63.1714,32.6632 -116.005,32.6632l-226.353 0 0 -236.994z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .fil0 {fill:#373435}
+    .fil1 {fill:#3080E3}
+    .fil2 {fill:#FCFBF9}
+    .fnt0 {font-weight:normal;font-size:116.917px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_796728800">
+   <text x="254" y="142"  class="fil0 fnt0">R</text>
+   <rect class="fil1" width="2467" height="2467" rx="315" ry="315"/>
+   <path class="fil2" d="M731 976l1020 0c6,-14 19,-35 28,-49l56 -97c7,-13 24,-39 28,-51l-1243 0 111 196z"/>
+   <path class="fil2" d="M1240 1857c-10,-11 -21,-34 -29,-48 -26,-46 -61,-101 -84,-146 9,-22 31,-54 43,-75 165,-293 172,-219 -213,-218l-112 -197 791 0 -396 684z"/>
+  </g>
+ </g>
+</svg>

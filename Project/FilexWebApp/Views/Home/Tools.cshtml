@@ -1,0 +1,475 @@
+﻿
+@{
+    ViewBag.Title = "Tools";
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Truth Power Info.</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.svg" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="~/assets/css/animate.css" />
+    <link rel="stylesheet" href="~/assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="~/assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="~/assets/css/main.css" />
+    <style>
+        .riti {
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3080E3;
+            border: 2px solid #3080E3;
+            border-radius: 30px;
+            padding: 8px 30px;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1047.0" data-gr-ext-installed="">
+    <!--[if lte IE 9]>
+          <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+            your experience and security.
+          </p>
+        <![endif]-->
+
+    <div class="preloader" style="opacity: 0; display: none;">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="~/Home/index">
+                                <img src="~/assets/images/logo/logo.svg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"> </span>
+                                <span class="toggler-icon"> </span>
+                                <span class="toggler-icon"> </span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar " style="" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="~/Home/Privacy" aria-label="Toggle navigation"> Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="~/Home/Terms" aria-label="Toggle navigation"> Terms</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="~/Home/Disclaimer" aria-label="Toggle navigation"> Disclaimer</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="~/Home/Support" aria-label="Toggle navigation"> Support</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="~/convert/pdftodocx" aria-label="Toggle navigation"> Tools</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <section class="footer section">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Try our other tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="row" style="justify-content: center;">
+                        <div class=" col-md-2 col-10">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter" style="padding-left:0px">
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Docx to Pdf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/docxtopdf">
+                                            <img src="https://img.icons8.com/color/40/000000/word.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Docx to Text">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/docxtotxt">
+                                            <img src="https://img.icons8.com/color/40/000000/word.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Docx to Html">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/docxtohtml">
+                                            <img src="https://img.icons8.com/color/40/000000/word.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Docx to Rtf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/docxtortf">
+                                            <img src="https://img.icons8.com/color/40/000000/word.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-md-2 col-10">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter" style="padding-left:0px">
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Pdf to Docx">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/pdftodocx">
+                                            <img src="https://img.icons8.com/color/40/000000/pdf.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Pdf to Text">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/pdftotext">
+                                            <img src="https://img.icons8.com/color/40/000000/pdf.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Pdf to Html">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/pdftohtml">
+                                            <img src="https://img.icons8.com/color/40/000000/pdf.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Pdf to Rtf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/pdftortf">
+                                            <img src="https://img.icons8.com/color/40/000000/pdf.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-md-2 col-10">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter" style="padding-left:0px">
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Text to Pdf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/texttopdf">
+                                            <img src="https://img.icons8.com/office/40/000000/txt.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Text to Docx">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/texttodocx">
+                                            <img src="https://img.icons8.com/office/40/000000/txt.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Text to Html" />
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/texttohtml">
+                                            <img src="https://img.icons8.com/office/40/000000/txt.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Text to Rtf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/texttortf">
+                                            <img src="https://img.icons8.com/office/40/000000/txt.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-md-2 col-10">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter" style="padding-left:0px">
+
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Html to Pdf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/htmltopdf">
+                                            <img src="https://img.icons8.com/color/40/000000/code-file.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Html to Docx">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/htmltodocx">
+                                            <img src="https://img.icons8.com/color/40/000000/code-file.png" />
+
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Html to Text">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/htmltotext">
+                                            <img src="https://img.icons8.com/color/40/000000/code-file.png" />
+
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End Single Widget -->
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Html to Rtf">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/htmltortf">
+                                            <img src="https://img.icons8.com/color/40/000000/code-file.png" />
+
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-md-2 col-10">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter" style="padding-left:0px">
+
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Rtf to Pdf" />
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/rtftopdf">
+                                            <img src="https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-file-file-types-prettycons-flat-prettycons-26.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Rtf to Docx">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/rtftodocx">
+                                            <img src="https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-file-file-types-prettycons-flat-prettycons-26.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+                                </div> <div class="newsletter-form">
+                                    <input disabled="disabled" value="Rtf to Html" />
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/rtftohtml">
+                                            <img src="https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-file-file-types-prettycons-flat-prettycons-26.png" />
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End Single Widget -->
+                                <div class="newsletter-form">
+                                    <input disabled="disabled" value="Rtf to Text" required="required" type="email">
+                                    <div class="button">
+                                        <a class="sub-btn" style="background-color:white" href="/convert/rtftotext">
+                                            <img src="https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-file-file-types-prettycons-flat-prettycons-26.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Single Widget -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / End Footer Top -->
+    </section>
+    <section class="services section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Privacy that matters</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+
+                    <div class="single-service three">
+                        <div class="service-icon">
+                            <img style="height:40px; width:40pX;" src="https://img.icons8.com/windows/32/000000/security-ssl.png" />
+                        </div>
+                        <h3>Secure Sockets Layer</h3>
+                        <p>
+                            SSL ensures that file transactions must be secure from server to client.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+
+                    <div class="single-service three">
+                        <div class="service-icon">
+                            <img style="height:40px; width:40pX;" src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-convert-user-interface-design-soft-fill-soft-fill-juicy-fish.png" />
+                        </div>
+                        <h3>Converting</h3>
+                        <p>
+                            Our conversion process does not affect the original file data.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+
+                    <div class="single-service three">
+                        <div class="service-icon">
+                            <img style="height:40px; width:40pX;" src="https://img.icons8.com/material-rounded/24/000000/filled-trash.png" />
+                        </div>
+                        <h3>Disposing</h3>
+                        <p>The application automatically deletes the file from the server in 2 seconds..</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call-action style2">
+        <div class="container">
+            <div class="inner-content">
+                <img class="bg-shape" src="~/assets/images/call-action/bg-shape.svg" alt="#">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <div class="text">
+                            <h2>
+                                Ready to dive in?
+                                <br> Start your free trial today.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <div class="button">
+                            <a href="pricing.html" class="btn">
+                                Get started
+                            </a>
+                            <a href="about-us.html" class="btn btn-alt">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer Area -->
+    <footer class="footer section">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- Single Widget -->
+                            <div class="single-footer f-about">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="~/assets/images/logo/logo.svg" alt="#">
+                                    </a>
+                                </div>
+                                <p> 100% Free & Secure online documents converter tool  </p>
+                                <p class="copyright-text">
+                                    <span> &copy; @DateTime.Now.Year - Filex.</span> Made with ❤️ by<a href="https://truthpowerinfo.com/" rel="nofollow" target="_blank"> Truth Power Info.</a>
+                                </p>
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <!-- Single Widget -->
+                            <div class="single-footer f-link">
+                                <h3> Support</h3>
+                                <ul>
+                                    <li> <a href="~/Home/Privacy"> Privacy & Plocies </a> </li>
+                                    <li> <a href="~/Home/Disclaimer"> Disclaimer</a> </li>
+                                    <li> <a href="~/Home/Terms"> Terms of Service</a> </li>
+                                    <li> <a href="~/Home/Support"> Support</a> </li>
+                                </ul>
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- Single Widget -->
+                            <div class="single-footer newsletter">
+                                <h3> Subscribe</h3>
+                                <p> Subscribe to our newsletter for the latest updates</p>
+                                <div class="newsletter-form">
+                                    <input name="EMAIL" placeholder="Email address" required="required" type="email">
+                                    <div class="button">
+                                        <button class="sub-btn">
+                                            <i class="lni lni-envelope"> </i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / End Footer Top -->
+    </footer>
+    <!-- / End Footer Area -->
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ========================= JS here ========================= -->
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/wow.min.js"></script>
+    <script src="~/assets/js/tiny-slider.js"></script>
+    <script src="~/assets/js/glightbox.min.js"></script>
+    <script src="~/assets/js/count-up.min.js"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/jquery.min.js"></script>
+
+</body>
+</html>

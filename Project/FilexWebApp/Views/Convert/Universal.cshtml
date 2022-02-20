@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = ViewBag.H2Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Start Hero Area -->
+<section class="hero-area" style="padding-top:150px">
+    <div class="main__circle2"> </div>
+    <div class="main__circle3"> </div>
+    <div class="main__circle4"> </div>
+    <div class="container">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title" style="border-style: dotted; padding-top: 50px; padding-bottom: 50px; border-radius: 30px;">
+                        <img style="padding-bottom:20px" src="@ViewBag.img" />
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"> @ViewBag.H2Title</h2>
+                        <div class="text">@ViewBag.Disc</div>
+                        <br />
+                        <label id="btnUpload" style="display: none" for="file" class="wow zoomIn riti" data-wow-delay=".2s"> Select File</label>
+                        <label id="btnDownload" style="display: none" class="riti" value="Download">Download</label>
+
+                        <input type="file" id="file" accept="@ViewBag.acceptext" style="display:none;" />
+                        <progress id="fileProgress" style="display: none"> </progress>
+                        <br />
+                        <span id="lblMessage" style="color: Green"> </span>
+
+                        <p class="wow fadeInUp" data-wow-delay=".6s">
+                            By using this service, you agree to our <a href="~/Home/Terms"> Terms </a> of Use and <a href="~/Home/Privacy"> Privacy Policy</a> .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Hero Area -->
