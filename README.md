@@ -12,6 +12,11 @@ Many companies around the World are using our software. You may see the list wit
 16 Types of file converter in a singal appplication.
 We use SSl to ensure the client data protection.
 
+
+## [Demo Link](https://filex.truthpowerinfo.com/home/tools)
+## [Demo Link Main](https://filex.truthpowerinfo.com)
+## [Sautinsoft Library](https://sautinsoft.com/products/document/)
+
 Steps to Convert file.
 
 ## 1- select target file formate
@@ -36,3 +41,5 @@ Steps to Convert file.
 # Try Other converters
 
 ![select formate](https://github.com/truthpowerinfo/filex/blob/main/Readme%20Content/7.png)
+
+## [Demo Link](https://filex.truthpowerinfo.com/home/tools)
